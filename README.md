@@ -24,24 +24,8 @@ Em linhas gerais, o fluxo é:
 ## Requisitos
 
 - AnyDesk já instalado.
-- [Git](https://git-scm.com/downloads) para clonar o repositório.
 - Permissão de administrador no Windows ou acesso a `sudo` no Linux/macOS.
 - Acesso à internet para baixar o repositório GitHub [`luizaopy/Reset-AnyDesk`](https://github.com/luizaopy/Reset-AnyDesk).
-
-## Instalação pela conta GitHub
-
-Clone o repositório da conta `luizaopy`:
-
-```bash
-git clone https://github.com/luizaopy/Reset-AnyDesk.git
-cd Reset-AnyDesk
-```
-
-Para atualizar uma cópia já instalada:
-
-```bash
-git pull origin main
-```
 
 ## Execução no Windows
 
