@@ -37,21 +37,6 @@ Abra o PowerShell, cole o comando abaixo e pressione **Enter**:
 $arquivo = Join-Path $env:TEMP "Anydesk-Reset.cmd"; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/luizaopy/Reset-AnyDesk/main/Anydesk-Reset.cmd" -OutFile $arquivo; Start-Process -FilePath $arquivo -Verb RunAs -Wait
 ```
 
-O script será baixado para a pasta temporária do Windows. Aceite a solicitação do Controle de Conta de Usuário para executá-lo como administrador.
-
-> [!NOTE]
-> O download funcionará depois que o repositório público `luizaopy/Reset-AnyDesk` e o arquivo `Anydesk-Reset.cmd` forem publicados na branch `main`.
-
-### Método pelo repositório clonado
-
-Abra o **PowerShell como administrador**, entre na pasta clonada e execute:
-
-```powershell
-.\Anydesk-Reset.cmd
-```
-
-Alternativamente, clique com o botão direito em `Anydesk-Reset.cmd` e escolha **Executar como administrador**.
-
 ## Execução no Linux
 
 Depois de clonar o repositório:
