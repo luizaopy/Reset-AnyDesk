@@ -5,6 +5,9 @@ Use o comando correspondente ao seu sistema operacional.
 > [!IMPORTANT]
 > O AnyDesk precisa estar instalado. Execute somente em um computador que você administra e faça backup das configurações importantes.
 
+> [!NOTE]
+> O script executa apenas uma vez e não fica rodando em segundo plano. Se o tempo de espera aparecer novamente, execute outra vez o comando correspondente ao seu sistema operacional.
+
 ## Windows — PowerShell
 
 Abra o **PowerShell**, copie o comando completo abaixo, cole e pressione **Enter**. Quando o Windows solicitar, aceite a execução como administrador.
