@@ -15,7 +15,7 @@ Abra o **PowerShell**, copie o comando completo abaixo, cole e pressione **Enter
 ```powershell
 $arquivo = Join-Path $env:TEMP "Anydesk-Reset.cmd"; Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/luizaopy/Reset-AnyDesk/main/Anydesk-Reset.cmd" -OutFile $arquivo; Start-Process -FilePath $arquivo -Verb RunAs -Wait
 ```
-
+ 
 ## Linux — Terminal
 
 Abra o **Terminal**, copie o comando completo abaixo, cole e pressione **Enter**. Digite sua senha quando solicitado.
