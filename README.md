@@ -1,7 +1,7 @@
 # Reset AnyDesk
 
 Use o comando correspondente ao seu sistema operacional.
-
+ 
 > [!IMPORTANT]
 > O AnyDesk precisa estar instalado. Execute somente em um computador que você administra e faça backup das configurações importantes.
 
